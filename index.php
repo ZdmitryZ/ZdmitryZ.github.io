@@ -23,8 +23,9 @@
         <div style="text-align:center">
             <button type="submit" name="submit" value="submit">Получить ответ!</button>
         </div>
-        <h1 align="center">
-
+        
+    </form>
+    <h1 align="center">
             <?php $day = 10;
             if (isset($_POST['submit'])) {
                 $dat = $_POST['hour'];
@@ -48,9 +49,6 @@
                     echo "$dat ч. - это вечер!";
                 }
             } ?></h1>
-
-    </form>
-
 </body>
 
 </html>
